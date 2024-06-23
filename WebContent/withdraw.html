@@ -1,0 +1,64 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Withdraw Page </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: lightpink;  
+}  
+button {   
+       background-color:darkblue;   
+       width: 100%;  
+        color: white;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid white;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px darkblue;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: mediumslateblue;  
+    }   
+</style>   
+</head>    
+<body>    
+     
+    <center> <h1> Welcome to People's Bank </h1> </center>
+     <center> <h3> Withdraw Money </h3> </center> 
+    <form action ="WithdrawMoney" method ="post">  
+        <div class="container">   
+          
+           <label>Account Number : </label>   
+            <input type="text" placeholder="Enter Account Number" name="accno" required>  
+            <label>Withdraw Amount : </label>   
+            <input type="text" placeholder="Enter Withdraw Amount" name="wamt" required>  
+            <button type="submit">Withdraw</button>   
+            HOME <a href="option.html"> Click Here </a>   
+            
+        </div>   
+    </form>     
+</body>     
+</html>
